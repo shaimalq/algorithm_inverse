@@ -1,0 +1,23 @@
+ algorithme inverse
+variables
+	tableau t(6):entier
+	tableau c(6):entier
+	i:entier
+			
+debut
+	pour i<--- 0 a 5 pas 1 faire
+		ecrire("donner l'element", i+1,":")
+		lire(t(i))
+
+	fin pour
+	
+	pour i<--- 0 a 5 pas 1 faire
+	  	c(5-i)<--t(i) 
+
+	fin pour
+	
+	pour i<--- 0 a 5 pas 1 faire
+		ecrire("l'element",i+1,"du tableau invese est",c(i))
+	fin pour
+fin
+			
